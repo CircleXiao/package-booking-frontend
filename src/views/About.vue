@@ -1,6 +1,15 @@
 <template>
   <div class="about">
-    <h1>This is an about page</h1>
-    <a-button type="primary">hhhhh</a-button>
+    <PackagePutIn />
   </div>
 </template>
+
+<script>
+import PackagePutIn from '../components/PackagePutToStorage.vue'
+export default {
+  name: 'HelloWorld',
+  components: {
+    PackagePutIn
+  }
+}
+</script>
